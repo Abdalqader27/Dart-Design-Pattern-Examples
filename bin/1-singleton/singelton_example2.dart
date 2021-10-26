@@ -1,3 +1,6 @@
+// -> 3
+
+
 class SingletonExample2 {
   static final SingletonExample2 _instance = SingletonExample2._();
   final List<int> _numbers = [1, 2, 3, 4];

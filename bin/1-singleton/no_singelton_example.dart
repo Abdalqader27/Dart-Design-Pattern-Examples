@@ -1,3 +1,4 @@
+//  - > 1
 class NoSingletonExample1 {
   final List<int> _numbers = [1, 2, 3, 4];
 
@@ -9,7 +10,6 @@ class NoSingletonExample1 {
 }
 
 void main() {
-  // var object1=SingletonExample1();  Not acceptable
   var object1 = NoSingletonExample1();
   var object2 = NoSingletonExample1();
   var object3 = NoSingletonExample1();
